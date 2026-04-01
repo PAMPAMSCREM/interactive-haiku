@@ -10,23 +10,27 @@ html {
 }
 
 body {
-	margin: 1em;
-	background: black;
-	color: whitesmoke;
-	font-size: 5rem;
-	overflow: hidden;
-	background-image: url("../img/flames.gif");
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
+    margin: 1rem;
+    background-color: black;
+    color: whitesmoke;
+    font-size: 5rem;
+    overflow: hidden;
+   
+    background: black url("../img/flames.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* shorthand, but has issues on Safari */
+    /* background: black url("../img/flames.gif") no-repeat center/cover; */
+    transition-property: transform;
+    transition-duration: 3s;
 }
 
 .grid-container {
-	display: grid;
-	/* grid-template-columns: 1fr 1fr 1fr; */
-	grid-templatecolumns: repeat(auto-fit, minmax(320px, 1fr));
-	gap: 2rem;
-	margin: 10% 4rem 0 4rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+    margin: 10% 4rem 0 4rem;
 }
 
 .last {
