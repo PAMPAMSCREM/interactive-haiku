@@ -48,6 +48,7 @@ div {
 	animation-duration: 3s;
 }
 */
+
 @keyframes growAndGlow {
 	from {
 		color: whitesmoke;
