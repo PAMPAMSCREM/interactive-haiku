@@ -21,7 +21,8 @@ function randomize() {
     translateY = randomNumber(0, 80);
   }
 
-  div.style.transform = `scale(${scale}) translate(${translateX}%,${translateY}% rotate(${rotate}deg)`;});
+  div.style.transform = `scale(${scale}) translate(${translateX}%,${translateY}% rotate(${rotate}deg)`;
+  });
 
   
 }
