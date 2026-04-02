@@ -4,6 +4,13 @@ html {
     height: 100%;
 }
 
+.kristi-regular {
+  font-family: "Kristi", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
 body {
     margin: 1rem;
     background-color: black;
@@ -47,6 +54,7 @@ body {
 div {
     transition-property: transform;
     transition-duration: 3s;
+    font-family: "Kristi", cursive;
 }
 
 /* body {
