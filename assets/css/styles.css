@@ -14,7 +14,7 @@ h1 {
     font-family: "Kristi", cursive;
     margin: 1rem;
     color: whitesmokes;
-    font-size: 5rem;
+    font-size: 5rem; /* 80px */
     
 }
 
@@ -22,7 +22,7 @@ body {
     margin: 1rem;
     background-color: black;
     color: whitesmoke;
-    font-size: 5rem;
+    font-size: 5rem; /* 80px */
     font-family: "Kristi", cursive;
     overflow: hidden;
 
@@ -43,7 +43,7 @@ body {
 
 .last {
     padding-bottom: 2rem;
-    border-bottom: 2px solid rgb(220, 200, 180);
+    border-bottom: 2px solid rgb(178, 213, 121);
 }
 
 /* CSS Animation example */
