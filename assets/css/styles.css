@@ -46,6 +46,13 @@ body {
     border-bottom: 2px solid rgb(178, 213, 121);
 }
 
+.blossom {
+    font-family: "Kristi", cursive;
+    font-size: 5rem;
+    color: rgb(225, 199, 125);
+    margin: 1rem;
+}
+
 /* CSS Animation example */
 
 /* @keyframes fadeOut {
