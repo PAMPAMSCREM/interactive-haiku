@@ -10,6 +10,13 @@ html {
   font-style: normal;
 }
 
+h1 {
+    font-family: "Kristi", cursive;
+    margin: 1rem;
+    color: whitesmokes;
+    font-size: 5rem;
+    
+}
 
 body {
     margin: 1rem;
