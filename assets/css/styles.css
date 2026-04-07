@@ -43,13 +43,13 @@ body {
 
 .last {
     padding-bottom: 2rem;
-    border-bottom: 2px solid rgb(178, 213, 121);
+    border-bottom: 2px solid rgb(144, 251, 194);
 }
 
 .blossom {
     font-family: "Kristi", cursive;
     font-size: 5rem;
-    color: rgb(242, 228, 125);
+    color: rgb(144, 251, 194);
 }
 
 /* CSS Animation example */
